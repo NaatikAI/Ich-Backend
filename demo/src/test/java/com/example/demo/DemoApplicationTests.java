@@ -1,10 +1,10 @@
-package com.naatik.ich.security;
+package com.example.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class IchSecurityApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {
