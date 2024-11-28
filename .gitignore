@@ -1,0 +1,63 @@
+application.properties
+
+# Archivos y directorios específicos de Gradle
+.gradle/
+build/
+
+# Archivos específicos de IDEs
+.idea/
+.vscode/
+
+# Archivos de compilación y ejecución
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.cache
+
+# Archivos de configuración con información sensible
+application.properties
+
+# Archivos de respaldo o temporales
+*.bak
+*.tmp
+*~
+
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
